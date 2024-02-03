@@ -1,0 +1,286 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {/*Styles body of the document*/
+  color: #003049;
+  font-family: font-family: "Times, serif;
+  padding: 40px; background-color: #eae2b7;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Times, serif;
+}
+
+h1 {/*Styles all h1 headings*/
+  text-align: center; 
+  font-size: 100px;
+  margin-top: 5%;
+}
+
+header {
+   position: relative; /* Ensure the header remains a reference for absolute positioning */
+}
+
+h1 {
+   margin-bottom: 0; /* Adjust the margin based on your preference */
+  font-size: 30px;
+}
+
+
+h2{/*Styles all h2 headings*/
+  text-align: center; 
+  line-height: 80px;
+  font-size: 25px;
+  line-height: -20px;
+  margin-top: 0%;
+  padding-top: -80px;
+  left: 0%;
+  margin-left: 35%;
+}
+
+.centered-h2 {
+  text-align: center;
+}
+
+h2.top-section {
+  text-align: center;
+  margin-left: 0;
+}
+
+
+
+h3{/*Styles all h3 headings*/
+  margin-top: -20px;
+  font-size: 20px;
+  margin-bottom: -30px;
+  text-align: right;
+  margin-left: 100px;
+}
+
+h2.main-heading {
+  text-align: center;
+}
+
+h4.subheading-1 {
+  font-size: 20px; /* Adjust the font size based on your preference */
+}
+
+h4.subheading-2 {
+  font-size: 20px; /* Adjust the font size based on your preference */
+}
+
+h4.subheading-3 {
+  font-size: 20px; /* Adjust the font size based on your preference */
+}
+
+h5{/*Styles all h5 headings*/
+  text-align: left;
+}
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  text-align: left;
+}
+
+ul{ /*This code applies to all unordered lists*/
+  text-align: left;
+  font-family: Times, serif;
+}
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto; 
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.flex-container {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin between image containers based on your preference */
+}
+
+.image-container img {
+  width: 100%; /* Set the width to 100% of the container */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 300px; /* Set a maximum width if needed */
+}
+.image-container h4 {
+  width: 100%; /* Set the width to 100% of the container */
+  text-align: center; /* Center the text within the h4 */
+}
+
+
+
+a:link{
+  color: #d62828;/* The color of the link at rest before being visited*/
+}
+
+a:visited{
+  color: red /*The color of the link after it has been visited*/
+}
+
+a:hover{
+  color: #f77f00;/*The color of the lonkwhen you hover over it*/
+}
+
+a:active{
+  color: blue;/*The color of the link while being clicked*/
+}
+h4{
+  text-align: left;
+  font-size: 13px;
+  font-family: "Times, serif;
+}
+p{
+  text-align: center;
+}
+
+nav {
+   position: absolute; /* Use absolute positioning */
+   top: 75px; /* Adjust the top position based on your preference */
+   right: 57px; /* Adjust the left position based on your preference */
+   margin-right: 20px;
+}
+
+/*This code will style the navigation bar*/
+nav ol {
+   list-style: none; /* Remove default list styles */
+   padding: 0; /* Remove default padding */
+   margin: 0; /* Remove default margin */
+}
+
+nav ol li {
+   display: inline-block; /* Display list items horizontally */
+   margin-right: 15px; /* Adjust the margin between list items based on your preference */
+}
+
+
+nav a {
+   text-decoration: none; /* Remove underline from links */
+   color: #333; /* Set link color */
+}
+
+/* Style navigation links on hover */
+nav a:hover {
+   color: #ff0000; /* Adjust the hover color based on your preference */
+}
+
+
+
+footer p{
+  text-align: center;/*This code centers all footer paragraphs*/
+}
+
+/* Add this to your existing stylesheet */
+h5,
+p {
+  text-align: left;
+}
+
+
+/* Add this to your existing stylesheet */
+ul {
+  display: flex;
+  flex-direction: column; /* Align list items vertically */
+  align-items: flex-start; /* Align list items to the right */
+  padding-left: 0;
+}
+
+ul li {
+  text-align: left;
+  list-style-position: inside;
+  margin-bottom: 5px; /* Adjust the margin between list items based on your preference */
+}
+
+ul.align-bullets {
+  text-align: right;
+}
+
+img.image-circle {
+  margin-left: -20px; /* Adjust the negative margin to move the image to the left */
+}
+
+
+ol {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+ol li {
+  margin: 0 10px; /* Adjust the margin between list items based on your preference */
+  counter-increment: my-counter; /* Increment the counter for each list item */
+}
+
+
+
+
+.image-circle {
+  float: left; /* Float the image to the left */
+  margin-right: 20px; /* Add some margin to separate the image from the text */
+  border-radius: 50%;/*This makes image round*/
+}
+
+.image-container {
+  overflow: hidden; /* Clear the float to contain the following elements */
+}
+
+.align-bullets {
+  text-align: right; /* Align the bullets to the right within the ul */
+  list-style-position: inside; /* Position the list item bullets inside the list item */
+}
+
+.top-section {
+  text-align: right; /* Align the heading to the right */
+}
+
+.contact-info {
+  list-style-type: decimal; /* Set list style to numbers */
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Set the direction to column to make it vertical */
+  align-items: center; /* Center the items along the cross axis */
+  list-style: none;
+}
+
+.contact-info-list {
+  list-style-type: decimal; /* Set list style to numbers */
+  padding: 0;
+  flex-direction: column;
+}
+
+.contact-info-list li {
+  margin-bottom: 10px; /* Adjust the margin between list items based on your preference */
+}
+
+
+.contact-info-list ol {
+  margin-bottom: 10px; /* Adjust the margin between list items based on your preference */
+}
+
+
